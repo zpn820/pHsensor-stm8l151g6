@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\nwproject\program\stm8l151g6\pHsensor\V10\settings\TX315EPV10.Debug.general.xcl" --backend -f "F:\nwproject\program\stm8l151g6\pHsensor\V10\settings\TX315EPV10.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\nwproject\program\stm8l151g6\V10\settings\TX315EPV10.Debug.general.xcl" --backend -f "F:\nwproject\program\stm8l151g6\V10\settings\TX315EPV10.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\nwproject\program\stm8l151g6\pHsensor\V10\settings\TX315EPV10.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\nwproject\program\stm8l151g6\pHsensor\V10\settings\TX315EPV10.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\nwproject\program\stm8l151g6\V10\settings\TX315EPV10.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\nwproject\program\stm8l151g6\V10\settings\TX315EPV10.Debug.driver.xcl" 
 }

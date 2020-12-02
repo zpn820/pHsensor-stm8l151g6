@@ -18,10 +18,6 @@
 #include "AD7792.h"				     // AD7792 definitions.
 #include "Communication.h"		// Communication definitions.
 
-
-uint8_t regesit_value[48] ={0};
-uint8_t i_t	= 0;
-uint8_t data_ad7792[5]={0};
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 #define SCROLL_SPEED  100 /* Low value gives higher speed */
@@ -50,14 +46,16 @@ uint32_t  RecvWaitTime = 0;       // 接收等待时间
 uint16_t  SendCnt = 0;            // 计数发送的数据包数  
 
 /* Private variables ---------------------------------------------------------*/
-
+uint8_t     regesit_value[48] ={0};
+uint8_t     i_t	= 0;
+uint8_t     data_ad7792[5]={0};
 uint8_t     SendBuffer[SEND_LENGTH] = {1,0,0,0,0}; 
 uint16_t    ADCdata = 0;
 uint16_t    PotVoltage = 0;
 uint8_t     AD7792ID = 0;
 
-uint16_t AD7792_Avg = 0;
-uint16_t  value_test = 0;
+uint16_t    AD7792_Avg = 0;
+uint16_t    value_test = 0;
 
 
 unsigned int * ADCBuffer;

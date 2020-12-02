@@ -1,47 +1,51 @@
-AD7792main.pbi: \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\AD7792\Communication.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\RF\CC1101_REG.h \
+AD7792main.pbi: F:\nwproject\program\stm8l151g6\V10\AD7792main.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdlib.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\RF\CC1101.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\AD7792\AD7792.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\board.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\stm8l15x_conf.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
-  F:\nwproject\program\stm8l151g6\pHsensor\V10\AD7792main.c
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smn.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  F:\nwproject\program\stm8l151g6\V10\stm8l15x_conf.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
+  F:\nwproject\program\stm8l151g6\V10\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  F:\nwproject\program\stm8l151g6\V10/board.h \
+  F:\nwproject\program\stm8l151g6\V10/stm8l15x_conf.h \
+  F:\nwproject\program\stm8l151g6\V10\AD7792\AD7792.h \
+  F:\nwproject\program\stm8l151g6\V10\RF\CC1101.h \
+  F:\nwproject\program\stm8l151g6\V10\RF/CC1101_REG.h \
+  F:\nwproject\program\stm8l151g6\V10\board.h \
+  F:\nwproject\program\stm8l151g6\V10\AD7792\Communication.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stddef.h
